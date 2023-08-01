@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Button */
+.btn-primary{
+    position: reative;
+    transition: transform 0.3;
+}
+
+.btn-primary:hover{
+    transform: translateY(-3px);
+}
+
+/* Card Services */
+.card-services{
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card-services:hover{
+    transform: translateY(-5px);
+}
